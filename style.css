@@ -12,10 +12,16 @@
     justify-content: center;
     gap: 20px;
     padding:  30px 30px;
-    font-size: 30px;
+}
 
+button {
+    padding: 10px 20px; 
   }
   
+img {
+    inline-size: 250px;
+}
+
   h1 {
     font-size: 80px;
     margin-bottom: 20px;
