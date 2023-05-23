@@ -29,20 +29,14 @@ img {
   h1 {
     font-size: 80px;
     margin-bottom: 20px;
-<<<<<<< HEAD
     font-family: 'Courier New', Courier, monospace;
-=======
->>>>>>> c55714804acebaae3481b64c71374faea2b481ce
   }
   
   .score-container {
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     flex: 1;
-=======
->>>>>>> c55714804acebaae3481b64c71374faea2b481ce
   }
   
   #playerScore,
@@ -65,7 +59,6 @@ img {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-<<<<<<< HEAD
     font-size: 30px;
     font-style: bold;
   }
@@ -148,8 +141,3 @@ margin-top: 20px;
               }
     }
   }
-=======
-    font-size: 24px;
-  }
-  
->>>>>>> c55714804acebaae3481b64c71374faea2b481ce

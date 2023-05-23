@@ -11,17 +11,10 @@ function updateScores(player, points) {
    document.getElementById("computerScore").textContent = computerScore;
    
    if (playerScore >= 5) {
-<<<<<<< HEAD
      document.getElementById("winnerFinal").textContent = "PLAYER WINS!";
      endGame();
    } else if (computerScore >= 5) {
      document.getElementById("winnerFinal").textContent = "COMPUTER WINS!";
-=======
-     document.getElementById("winnerFinal").textContent = "Player Wins!";
-     endGame();
-   } else if (computerScore >= 5) {
-     document.getElementById("winnerFinal").textContent = "Computer Wins!";
->>>>>>> c55714804acebaae3481b64c71374faea2b481ce
      endGame();
    }
  }
@@ -31,7 +24,6 @@ function updateScores(player, points) {
  
    if (playerSelection === "rock" && computerSelection === "paper") {
      updateScores(2, 1);
-<<<<<<< HEAD
      document.getElementById("winner").textContent = "You lose. Paper beats rock.";
    } else if (playerSelection === "paper" && computerSelection === "scissors") {
      updateScores(2, 1);
@@ -50,26 +42,6 @@ function updateScores(player, points) {
      document.getElementById("winner").textContent = "You win. Scissors beats paper.";
    } else {
      document.getElementById("winner").textContent = "It's a tie.";
-=======
-     document.getElementById("winner").textContent = "You Lose! Paper beats Rock!";
-   } else if (playerSelection === "paper" && computerSelection === "scissors") {
-     updateScores(2, 1);
-     document.getElementById("winner").textContent = "You Lose! Scissors beats Paper!";
-   } else if (playerSelection === "scissors" && computerSelection === "rock") {
-     updateScores(2, 1);
-     document.getElementById("winner").textContent = "You Lose! Rock beats Scissors!";
-   } else if (playerSelection === "rock" && computerSelection === "scissors") {
-     updateScores(1, 1);
-     document.getElementById("winner").textContent = "You Win! Rock beats Scissors!";
-   } else if (playerSelection === "paper" && computerSelection === "rock") {
-     updateScores(1, 1);
-     document.getElementById("winner").textContent = "You Win! Paper beats Rock!";
-   } else if (playerSelection === "scissors" && computerSelection === "paper") {
-     updateScores(1, 1);
-     document.getElementById("winner").textContent = "You Win! Scissors beats Paper!";
-   } else {
-     document.getElementById("winner").textContent = "It's a tie!";
->>>>>>> c55714804acebaae3481b64c71374faea2b481ce
    }
  }
  
@@ -93,7 +65,6 @@ function updateScores(player, points) {
    console.log("You picked scissors!");
    playRound("scissors", getComputerChoice());
  });
-<<<<<<< HEAD
 
  const resetButton = document.getElementById("resetButton");
 
@@ -127,8 +98,6 @@ function endGame() {
   resetButton.style.display = "block";
 }
 
-=======
->>>>>>> c55714804acebaae3481b64c71374faea2b481ce
  
  let playerScore = 0;
  let computerScore = 0;
@@ -145,12 +114,10 @@ function endGame() {
    paperButton.disabled = true;
    rockButton.disabled = true;
    scissorsButton.disabled = true;
-<<<<<<< HEAD
    document.getElementById("resetButton").style.display = "block";
 
 
-=======
-   
->>>>>>> c55714804acebaae3481b64c71374faea2b481ce
  }
+
+ test
  
