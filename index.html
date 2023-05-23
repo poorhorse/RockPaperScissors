@@ -10,18 +10,19 @@
 <body>
     <div class="top">
 
-<h1>rock.paper.scissors</h1>
+<h1>rock/paper/scissors</h1>
 
     </div>
 
 <div class="buttons-container">
 <button id="rockButton"><img src="images/rock.JPG" alt=""></button>
-<button id="paperButton"><img><img src="images/paper.JPG" alt=""></button>
+<button id="paperButton"><img src="images/paper.JPG" alt=""></button>
 <button id="scissorsButton"><img src="images/scissors.JPG" alt=""></button>
 </div>
 
 <div class="score-container">
     <div id="playerScore">0</div>
+    vs
     <div id="computerScore">0</div>
 
     </div>
@@ -31,7 +32,9 @@
 
 
 <div id="winnerFinal"></div>
-
+<div id="resetButtonContainer">
+<button id="resetButton" style="display: none;">Play again?</button>
+</div>
 
 
     <script src="app.js"></script>

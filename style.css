@@ -12,6 +12,7 @@
     justify-content: center;
     gap: 20px;
     padding:  30px 30px;
+    flex: 1;
 }
 
 button {
@@ -25,12 +26,14 @@ img {
   h1 {
     font-size: 80px;
     margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   .score-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
   }
   
   #playerScore,
@@ -53,6 +56,85 @@ img {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    font-size: 24px;
+    font-size: 30px;
+    font-style: bold;
   }
   
+  #resetButtonContainer {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+  }
+
+  #resetButton {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding: 0;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+
+
+  @media only screen and (max-width: 910px) {
+    .top {
+      margin-top: 20px;
+    }
+  
+    .buttons-container {
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 20px;
+    }
+  
+    button {
+      padding: 8px 16px;
+      font-size: 18px;
+    }
+  
+    img {
+      inline-size: 185px;
+    }
+  
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+  
+    #playerScore,
+    #computerScore {
+      margin: 5px;
+      font-size: 18px;
+      padding: 3px;
+    }
+  
+    #winner, {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+
+    #winnerFinal {
+        font-style: bold;
+        font-size: 25px;
+        margin-top: 18px;
+    }
+        #resetButtonContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+              }
+            
+              #resetButton {
+                background-color: transparent;
+                border: none;
+                padding: 0;
+                font-size: inherit;
+                text-decoration: none;
+                cursor: pointer;
+              }
+    }
+  }
